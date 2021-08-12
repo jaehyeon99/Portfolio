@@ -2,6 +2,7 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 
 
+
 function Skils() {
     return (
         <div className="skil">

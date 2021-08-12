@@ -98,6 +98,9 @@ animation-iteration-count: infinite;
   letter-spacing: 1px;
 
 }
+.introduce .my_role h6{
+  margin-top: 30px;
+}
 .introduce .my_role .profile{
   margin-top: 3%;
   margin-bottom: 3%;
@@ -210,6 +213,7 @@ animation-iteration-count: infinite;
   position: absolute;
   left: 100px;
   color: #fff;
+  transform: scale(1.0);
 }
 .my_project .pro_lists .pro_2{
   text-align: center;
@@ -225,6 +229,7 @@ animation-iteration-count: infinite;
   right: 100px;
   position: absolute;
   color: #fff;
+  transform: scale(1.0);
 }
 .my_project .pro_lists .pro_3{
   text-align: center;
@@ -240,6 +245,7 @@ animation-iteration-count: infinite;
   position: absolute;
   left: 100px;
   color: #fff;
+  transform: scale(1.0);
 }
 .my_project .pro_lists .pro_4{
   text-align: center;
@@ -255,6 +261,7 @@ animation-iteration-count: infinite;
   top: 850px;
   position: absolute;
   color: #fff;
+  transform: scale(1.0);
 }
 .my_project .pro_lists .pro_5{
   text-align: center;
@@ -270,4 +277,92 @@ animation-iteration-count: infinite;
   position: absolute;
   left: 100px;
   color: #fff;
+  transform: scale(1.0);
+}
+.my_project .pro_lists .pro_1,.my_project .pro_lists .pro_2,.my_project .pro_lists .pro_3,
+.my_project .pro_lists .pro_4,.my_project .pro_lists .pro_5{
+  cursor: pointer;
+}
+.my_project .pro_lists .pro_1:hover,.my_project .pro_lists .pro_2:hover,.my_project .pro_lists .pro_3:hover,
+.my_project .pro_lists .pro_4:hover,.my_project .pro_lists .pro_5:hover{
+ transition-delay: 10ms;
+ width: 510px;
+ height: 210px;
+  
+}
+.pro_lists a{
+  color: #fff;
+}
+
+/* AboutMe.js */
+
+.about{
+  height: 800px;
+  background-color: #121314;
+}
+.about h2{
+  color: #fff;
+    font-size: 50px;
+    margin-left: 20px;
+}
+.about h6{
+  color: #fff;
+  font-size: 20px;
+  margin-top: 26px;
+  text-align: center;
+}
+.about p{
+  margin-top: 10px;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+}
+.about .wise{
+  margin: auto;
+  margin-top: 20px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  width: 630px;
+  height: 200px;
+}
+.about .wise p{
+  color: #fff;
+  font-size: 13px;
+}
+
+/* contact.js */
+.Contact{
+  height: 400px;
+  background-color: #121314;
+}
+.Contact h2{
+  color: #fff;
+  font-size: 50px;
+  margin-left: 20px;
+}
+.Contact h6{
+
+    color: #fff;
+    font-size: 20px;
+    margin-top: 26px;
+    text-align: center
+}
+.Contact i{
+  margin-left: 100px;
+  margin-top: 15px;
+  color: #fff;
+  font-size: 40px;
+  padding: 15px;
+}
+.Contact a{
+  color: #fff;
+  text-align: center;
+}
+.Contact .my_contact{
+
+  margin: 40px auto;
+  width: 600px;
+  height: 200px;
+  border: 2px solid #fff;
+  border-radius: 20px;
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link, Router } from 'react-router-dom';
 function Header() {
     return (
         <>
@@ -7,13 +7,16 @@ function Header() {
                 <div className="main">
                     <a href="/">&lt;Jaehyeon/&gt;</a>
                 </div>
+
                 <div className="menu">
-                    <a href="/">About</a>
-                    <a href="/">Skils</a>
-                    <a href="/">Project</a>
-                    <a href="/">Blogs</a>
-                    <a href="/">Contact me</a>
+
+                    <Link to="/AboutMe">About</Link>
+                    <Link to="/Skils">Skil</Link>
+                    <Link to="/Project">Project</Link>
+                    <Link to="/Contact">Contact Me</Link>
+
                 </div>
+
             </div>
 
         </>
